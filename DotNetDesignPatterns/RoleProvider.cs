@@ -14,7 +14,7 @@ namespace DotNetDesignPatterns.SingletonPattern
             Task.Delay(2000).GetAwaiter().GetResult();
             Role = new List<Role>()
             {
-                new Role(){ RoleName = "Trainee" },
+                new Role(){ RoleName = "Trainee" }, //m
                 new Role(){ RoleName = "GrowthCoach" },
                 new Role(){ RoleName = "PeopleOps" },
                 new Role(){ RoleName = "Admin" }
